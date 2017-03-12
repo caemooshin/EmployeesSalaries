@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+Modify the following application so it calculates the yearly salaries of employees. The tasks that need to be done are the following:
+
+Make sure the class Employee implements the interface Taxes.
+
+
+Define the method getGrossSalary() within Employee class. Assume that the gross salary is equal to the following equation:
+Base salary + Time employed bonus
+Where: 
+Base salary = $40000/year
+Time employed bonus = $1000/year employed
+
+
+Define the method getNetSalary() within Employee class. Assume that the net salary is equal to the following equation:
+Gross salary - (Gross salary * Tax rate)
+Note: 
+
+Tax rate should be obtained by invoking the getTaxRate() static method located within the interface Taxes.
+Create a child class Manager that inherits from the class Employee. Override the method getBonus() so that each manager gets an extra $10000 additional to the time employed bonus.
+
+<root>
+    
+</root>
